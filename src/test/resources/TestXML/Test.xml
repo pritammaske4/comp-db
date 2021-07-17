@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ComputerDBSuite" parallel="tests" thread-count="1">
+
+<test name="AddNewComputerTest" preserve-order="true">
+    <classes>
+        <class name="com.herokuapp.automation.testscripts.AddNewComputerTest" />
+    </classes>
+</test>
+<test name="CancelNewComputerRecordTest" preserve-order="true">
+    <classes>
+        <class name="com.herokuapp.automation.testscripts.CancelNewComputerRecordTest" />
+    </classes>
+</test>
+<test name="ComputerNameRequiredTest" preserve-order="true">
+    <classes>
+        <class name="com.herokuapp.automation.testscripts.ComputerNameRequiredTest" />
+    </classes>
+</test>
+<test name="IntroduceDateFormatTest" preserve-order="true">
+    <classes>
+        <class name="com.herokuapp.automation.testscripts.IntroduceDateFormatTest" />
+    </classes>
+</test>
+<test name="DiscontinuedDateFormatTest" preserve-order="true">
+    <classes>
+        <class name="com.herokuapp.automation.testscripts.DiscontinuedDateFormatTest" />
+    </classes>
+</test>
+<test name="RetrieveComputerRecordData" preserve-order="true">
+    <classes>
+        <class name="com.herokuapp.automation.testscripts.RetrieveComputerRecordData" />
+    </classes>
+</test>
+<test name="RetrieveCaseInsensitiveComputerRecordData" preserve-order="true">
+    <classes>
+        <class name="com.herokuapp.automation.testscripts.RetrieveCaseInsensitiveComputerRecordData" />
+    </classes>
+</test>
+<test name="UpdateExistingComputerRecordComputerName" preserve-order="true">
+    <classes>
+        <class name="com.herokuapp.automation.testscripts.UpdateExistingComputerRecordComputerName" />
+    </classes>
+</test>
+<test name="UpdateExistingComputerRecordDiscontinuedDate" preserve-order="true">
+    <classes>
+        <class name="com.herokuapp.automation.testscripts.UpdateExistingComputerRecordDiscontinuedDate" />
+    </classes>
+</test>
+<test name="UpdateExistingComputerRecordIntroducedDate" preserve-order="true">
+    <classes>
+        <class name="com.herokuapp.automation.testscripts.UpdateExistingComputerRecordIntroducedDate" />
+    </classes>
+</test>
+<test name="DeleteComputerRecordTest" preserve-order="true">
+    <classes>
+        <class name="com.herokuapp.automation.testscripts.DeleteComputerRecordTest" />
+    </classes>
+</test>
+<!--
+ <listeners>
+     <listener class-name="org.testng." />
+ </listeners>-->
+
+</suite> <!-- Suite -->

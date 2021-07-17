@@ -1,0 +1,13 @@
+<UIElements>
+    <UIElement name="txtComputerName" locatorType="id" locatorValue="name"/>
+    <UIElement name="txtIntroducedDate" locatorType="id" locatorValue="introduced"/>
+    <UIElement name="txtDiscontinuedDate" locatorType="id" locatorValue="discontinued"/>
+    <UIElement name="selCompany" locatorType="id" locatorValue="company"/>
+    <UIElement name="btnCreateNewComputer" locatorType="xpath" locatorValue="//input[@value='Create this computer']"/>
+    <UIElement name="btnCancel" locatorType="xpath" locatorValue="//a[normalize-space()='Cancel']"/>
+    <UIElement name="btnDelete" locatorType="xpath" locatorValue="//input[@value='Delete this computer']"/>
+    <UIElement name="btnSave" locatorType="xpath" locatorValue="//input[@value='Save this computer']"/>
+    <UIElement name="lblComputerNameErrorMsg" locatorType="xpath" locatorValue="//span[normalize-space()='Required']//preceding-sibling::input"/>
+    <UIElement name="lblIntroduceDateErrorMsg" locatorType="xpath" locatorValue="//span[normalize-space()=&quot;Date ('yyyy-MM-dd')&quot;]//preceding-sibling::input[@id='introduced']"/>
+    <UIElement name="lblDiscontinueDateErrorMsg" locatorType="xpath" locatorValue="//span[normalize-space()=&quot;Date ('yyyy-MM-dd')&quot;]//preceding-sibling::input[@id='discontinued']"/>
+</UIElements>

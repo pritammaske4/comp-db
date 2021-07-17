@@ -1,0 +1,9 @@
+<UIElements>
+    <UIElement name="btnFilterByName" locatorType="id" locatorValue="searchsubmit"/>
+    <UIElement name="btnAddNewComputer" locatorType="id" locatorValue="add"/>
+    <UIElement name="txtSearchBox" locatorType="id" locatorValue="searchbox"/>
+    <UIElement name="lblSuccessMsg" locatorType="xpath" locatorValue="//div[@class='alert-message warning']"/>
+    <UIElement name="lblpagingIndex" locatorType="xpath" locatorValue="//li[@class='current']/a"/>
+    <UIElement name="tableComputer" locatorType="xpath" locatorValue="//table[contains(@class,'computers')]"/>
+    <UIElement name="headerNoComputerFound" locatorType="xpath" locatorValue="//h1[normalize-space()='No computers found']"/>
+</UIElements>
